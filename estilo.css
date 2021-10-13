@@ -1,0 +1,55 @@
+body{
+background-color: wheat;
+
+}
+
+
+
+
+h1{
+    background-color: lightcoral;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:black;
+position: relative;
+font-size: 50px;
+
+}
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+li{
+float: right;
+
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+h2{
+    color:darkslategrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
