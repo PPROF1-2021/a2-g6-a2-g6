@@ -64,14 +64,14 @@
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom01">Nombre</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre" required>
+                    <input name="nombre" type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre" required minlength="2" maxlength="15">
                     <div class="valid-feedback">
                       Válido!
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom02">Apellido</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su apellido" required>
+                    <input name="apellido" type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su apellido" required minlength="2" maxlength="15">
                     <div class="valid-feedback">
                       Válido!
                     </div>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationCustom02">Teléfono</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su teléfono sin espacios" required>
+                    <input name="telefono" type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su teléfono sin espacios" required minlength="8" maxlength="15">
                     <div class="valid-feedback">
                       Válido!
                     </div>
@@ -87,18 +87,18 @@
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom03">DNI</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="Ingrese su DNI sin espacios" required>
+                    <input name="dni" type="text" class="form-control" id="validationCustom03" placeholder="Ingrese su DNI sin espacios" required minlength="8" maxlength="11">
                     <div class="invalid-feedback">
                       Por favor ingrese su DNI.
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="date">Fecha de nacimiento</label>
-                    <input type="date" class="form-control" id="date" placeholder="Ingresa fecha de nacimiento" name="fecha" required>
+                    <input name="fecha de nacimiento" type="date" class="form-control" id="date" placeholder="Ingresa fecha de nacimiento" name="fecha" required>
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom04">Barrio</label>
-                    <select class="custom-select" id="validationCustom04" placeholder="Ingrese su barrio" required>
+                    <select name="barrio" class="custom-select" id="validationCustom04" placeholder="Ingrese su barrio" required>
                       <option selected disabled value="">Elige...</option>
                       <option>Crucero</option>
                       <option>San Juan</option>
@@ -111,7 +111,7 @@
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom05">Dirección</label>
-                    <input type="text" class="form-control" id="validationCustom05" placeholder="Ingrese su dirección de calle"required>
+                    <input name="direccion" type="text" class="form-control" id="validationCustom05" placeholder="Ingrese su dirección de calle"required>
                     <div class="invalid-feedback">
                       Por favor ingrese su dirección de calle
                     </div>
